@@ -5,31 +5,55 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="/css/mainstyles.css">
     <link rel="stylesheet" href="css/style.css">
-    <!--bootstrap-->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <!--materialite--><link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.indigo-pink.min.css">
+<script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
 
       <meta name="viewport" content="width=device-width,initial-scale=1.0" >
-  </head>
   <body class="body"> 
-        <nav class="navbar navbar-default navbar-fixed-top nav-right navbar-inverse">
-        <div class="container">
-          <ul>
-                   <li><a  href="index.html">Home</span></li>
-                  <li><a href="about.html">About</span></li>
-                 
-                  <li><a href="android.html">Android</span></li>
-                  <li><a href="ux.html">UX</span></li>
-                  <li><a class="active" href="daytoday.html">DayToday</span></li>
-          </ul>
+        
+      <!-- Uses a header that scrolls with the text, rather than staying
+  locked at the top -->
+<div class="mdl-layout mdl-js-layout">
+  <header class="mdl-layout__header mdl-layout__header--scroll">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">RAbidCode</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation -->
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="index.html">Home</a>
+        <a class="mdl-navigation__link" href="about.html">About</a>
+        <a class="mdl-navigation__link" href="android.html">Android</a>
+        <a class="mdl-navigation__link" href="ux.html">Ux</a>
+        <a class="mdl-navigation__link" href="daytoday.html">Daytoday</a>
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">RAbidCode</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="index.html">Home</a>
+        <a class="mdl-navigation__link" href="about.html">About</a>
+        <a class="mdl-navigation__link" href="android.html">Android</a>
+        <a class="mdl-navigation__link" href="ux.html">Ux</a>
+        <a class="mdl-navigation__link active" href="daytoday.html">Daytoday</a>
+    </nav>
   </div>
+  <main class="mdl-layout__content">
+    <div class="page-content"><!-- Your content goes here --></div>
+  </main>
+</div>
+        
 </nav>
       
+       <div id="posts">
          
-        </div>
-        
 
-      </div>
-       <div id="posts"></div>
+       </div>
       
       <footer class="mainfooter">
       <p>copyright &copy;victorgichohi</p>
