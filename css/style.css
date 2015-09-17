@@ -1,0 +1,14 @@
+ul li{
+	display: inline;
+}
+.container{
+
+}
+.navbar-inverse{
+	background-color: blue;
+}
+.clear{
+    background: transparent;
+    border: 1px solid #000;
+   
+}
